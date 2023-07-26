@@ -3,3 +3,4 @@
   tasks:
     - import_role:
         name: geerlingguy.mysql
+        become: yes
