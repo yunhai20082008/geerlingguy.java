@@ -4,4 +4,4 @@ roles:
   - name: buluma.mysql
 
 collections:
-  - name: ansible.posix
+  - name: community.windows
