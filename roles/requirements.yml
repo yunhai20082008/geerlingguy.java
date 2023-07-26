@@ -4,5 +4,4 @@ roles:
   - name: buluma.mysql
 
 collections:
-  - name: community.windows
-  - name: awx.awx
+  - name: community.general
