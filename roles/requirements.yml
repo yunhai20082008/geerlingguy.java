@@ -4,5 +4,4 @@ roles:
   - name: buluma.mysql
 
 collections:
-  - name: awx.awx
-  - name: ansible.windows
+  - name: ansible.posix
