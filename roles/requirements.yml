@@ -5,3 +5,4 @@ roles:
 
 collections:
   - name: awx.awx
+  - name: ansible.windows
