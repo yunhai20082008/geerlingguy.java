@@ -6,5 +6,5 @@
     - community.mysql
   tasks:
     - import_role:
-        name: geerlingguy.nginx
+        name: geerlingguy.mysql
 
