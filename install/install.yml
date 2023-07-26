@@ -4,3 +4,5 @@
     - vars/main.yml
   roles:
     - { role: geerlingguy.mysql }
+  collections:
+    - community.mysql
