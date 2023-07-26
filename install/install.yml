@@ -1,8 +1,17 @@
 ---
-- name: "Apply mysql"
+- name: Converge
   hosts: all
-  become: true
-  vars_files:
-    - vars/main.yml
+  become: yes
+  gather_facts: yes
+
   roles:
-    - { role: geerlingguy.mysql }
+    - role: buluma.mysql
+      mysql_databases:
+        - name: my_db
+          encoding: utf8
+          collation: utf8_bin
+      mysql_users:
+        - name: my_user
+          password: my_pass
+          priv: "my_db.*:ALL"
+          update_password: on_create
