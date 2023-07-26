@@ -1,6 +1,3 @@
 ---
 roles:
-  - name: robertdebock.mysql
-
-collections:
-  - name: community.general
+  - name: geerlingguy.mysql
