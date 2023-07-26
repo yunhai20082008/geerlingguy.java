@@ -1,7 +1,6 @@
 ---
 roles:
-  - name: buluma.bootstrap
-  - name: buluma.mysql
+  - name: robertdebock.mysql
 
 collections:
   - name: community.general
