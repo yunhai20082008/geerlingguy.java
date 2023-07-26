@@ -3,9 +3,6 @@
   hosts: all
   become: yes
   gather_facts: yes
-  collections:
-    - awx.awx
-
   roles:
     - role: buluma.mysql
       mysql_databases:
