@@ -1,2 +1,7 @@
-- name: buluma.bootstrap
-- name: buluma.mysql
+---
+roles:
+  - name: buluma.bootstrap
+  - name: buluma.mysql
+
+collections:
+  - name: awx.awx
