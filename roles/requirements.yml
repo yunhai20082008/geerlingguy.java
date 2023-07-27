@@ -1,6 +1,6 @@
 ---
 roles:
-  - name: geerlingguy.mysql
+  - name: geerlingguy.java
 
-collections:
-  - name: community.mysql
+#collections:
+#  - name: community.mysql
